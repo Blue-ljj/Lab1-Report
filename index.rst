@@ -12,9 +12,3 @@ Welcome to Lab1 Report's documentation!
 
    Lab_1_Report.md
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
