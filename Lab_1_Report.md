@@ -55,12 +55,12 @@ Results
     >         clusterrank="local"
     >      ]
     > 
-    > ​	node [
-    > ​       	fontsize=10
-    > ​       	shape=ellipse
-    > ​       	// style=filled
-    > ​       	// shape=box
-    > ​	];
+    > 	node [
+    >        	fontsize=10
+    >        	shape=ellipse
+    >        	// style=filled
+    >        	// shape=box
+    > 	];
     > 
     > "UseSqlite.py"  [style=filled];
     > "UseSqlite.py" -> "sqlite3";
