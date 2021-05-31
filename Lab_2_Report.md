@@ -16,6 +16,8 @@ We manipulate database with SQLAlchemy's ORM.
 
 ORM can map the objects represented by the object model to the SQL-based relational model database structure. In this way, we no longer need to use complex SQL statements when we specifically manipulate the entity object, but simply manipulate the attributes and methods of the entity object. ORM technology provides a bridge between objects and relationships, and can transform object data and relational data in the database through this bridge.
 
+
+
 Software version:
 
 > Operating system - Ubuntu 18.04.5 LTS
@@ -304,7 +306,7 @@ sqlalchemy.orm.exc.DetachedInstanceError: Instance <Article at 0x7fe2e8e27f28> i
 
 # Read the Docs
 
-Check this Link
+[Check this Link](https://lab1-report.readthedocs.io/en/latest/Lab_2_Report.html)
 
 
 
