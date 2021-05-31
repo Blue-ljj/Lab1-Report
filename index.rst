@@ -11,4 +11,5 @@ Welcome to Lab1 Report's documentation!
    :caption: Contents:
 
    Lab_1_Report.md
+   Lab_2_Report.md
 
