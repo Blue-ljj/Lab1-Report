@@ -109,9 +109,9 @@ In this code modification, we mainly rewrite the function `read` to implement a 
 
 In the function `read`, we first judge whether the account information is correct. 
 
-After identity verification, we judge and calculate the user’s English level. If the number of new words added by the user is more than three, we select the first three most difficult words to find their average difficulty represents the user’s English proficiency. If the number of newly added words is less than three, then directly find their average difficulty. 
+After identity verification, we judge and calculate the user’s English level. If the number of new words added by the user is more than three, we select the first three most difficult words to get the average difficulty which represents the user’s English proficiency. If the number of newly added words is less than three, then directly get their average difficulty. 
 
-After obtaining the user's English level, we screened out the English articles whose article difficulty is higher than the user's level. After screening all acceptable articles, select the articles with the lowest difficulty and provide them to users for reading.
+After obtaining the user's English level, we screened out the English articles whose article difficulty is higher than the user's level. After screening all acceptable articles, we select the article with the lowest difficulty and present it to user.
 
 ## Discussions
 
