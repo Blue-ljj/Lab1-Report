@@ -6,11 +6,11 @@
 >
 > Date: 2021/5/31
 
-# Introduction
+## Introduction
 
 We learn the object-relational mapper (ORM) provided by SQLAlchemy. With ORM, we can map a class to a database table, and map an object of that class to a row in the databasetable. With SQLAlchemy’s ORM, we can avoid directly using any raw SQL statements.
 
-# Materials and Methods
+## Materials and Methods
 
 We manipulate database with SQLAlchemy's ORM. 
 
@@ -28,7 +28,7 @@ Software version:
 
 
 
-# Results
+## Results
 
 - **model.py**
 
@@ -258,7 +258,7 @@ session.close()
 
 
 
-# Discussions
+## Discussions
 
 - **Problem:**
 
@@ -282,11 +282,15 @@ user.read_article(article)
 sqlalchemy.orm.exc.DetachedInstanceError: Instance <Article at 0x7fe2e8e27f28> is not bound to a Session; 
 ```
 
+
+
 - **Solution**
 
 ​		The session bound at the place where this article was defined has been closed, so executing `user.read_article(article) ` statement in another session will cause DetachedInstanceError.
 
 ​		It can be avoided by adding an assignment statement before calling `read_article()`, therefore we have to modify one line.
+
+
 
 - **Modification Explanation** 
 
@@ -303,14 +307,16 @@ sqlalchemy.orm.exc.DetachedInstanceError: Instance <Article at 0x7fe2e8e27f28> i
   - app.py
 
     In this file we add an assignment of **article** in **let him reading session** before reading executed, wihch shouldn't need to be modified. However we are unable to solve the bug we encountered, such that we have no idea but to bind the article to current session.
+    
+    
 
-# Read the Docs
+## Read the Docs
 
 [Check this Link](https://lab1-report.readthedocs.io/en/latest/Lab_2_Report.html)
 
 
 
-# References
+## References
 
 [1] [How to Write a Computer Science Lab Report](https://thehackpost.com/a-brief-guide-how-to-write-a-computer-science-lab-report.html)
 

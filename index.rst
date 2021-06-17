@@ -12,4 +12,4 @@ Welcome to Lab1 Report's documentation!
 
    Lab_1_Report.md
    Lab_2_Report.md
-
+   Lab_3_Report.md
